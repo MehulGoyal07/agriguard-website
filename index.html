@@ -212,22 +212,40 @@
 
         <!--Crop Diagnosis Section-->
         <div class="title" style="margin-top:3rem;" id="Diagnosis">
-            <img src="./assets/title-border1.svg" alt="" />
-
+            <img src="./assets/title-border1.svg" alt="Border Top" />
             <h2>Disease Diagnosis</h2>
-
-            <img src="./assets/title-border2.svg" alt="" />
+            <img src="./assets/title-border2.svg" alt="Border Bottom" />
         </div>
         <section class="crop-diagnosis">
             <div class="crop-diagnosis-container">
-                <h2 class="crop-diagnosis-heading">Get your crop diagnosed</h2>
+                <h2 class="crop-diagnosis-heading">Get Your Crop Diagnosed with AgriGuard</h2>
+                <h3 class="crop-diagnosis-subheading">Upload an Image and Get Instant Insights</h3>
                 <p class="crop-diagnosis-description">
-                    Upload an image of your crop to diagnose its condition and receive tailored suggestions and remedies.
+                    <strong>How It Works:</strong> Upload a clear image of your crop, and our advanced AI model will analyze it to detect any potential diseases. You'll receive immediate feedback on the health of your crop, including detailed information
+                    about the condition, suggested actions, and remedies to address any issues.
+                </p>
+                <p class="crop-diagnosis-description">
+                    <strong>Why Choose Us:</strong> Our state-of-the-art technology leverages the latest in machine learning to provide accurate diagnoses and actionable insights. Whether you're a smallholder farmer or managing large fields, AgriGuard
+                    offers reliable support to ensure your crops stay healthy and productive.
+                </p>
+                <p class="crop-diagnosis-tips">
+                    <strong>Tips for Best Results:</strong>
+                    <br>
+                    <strong>Ensure your image is clear and well-lit.</strong>
+                    <br>
+                    <strong> Try to capture the affected area of the crop.</strong>
+                    <br>
+                    <strong>Avoid taking photos with excessive shadows or glare.</strong>
                 </p>
 
                 <form id="cropDiagnosisForm" class="crop-diagnosis-form">
-                    <input type="file" id="cropImage" class="crop-diagnosis-input" accept="image/*" required />
+                    <label for="cropImage" class="custom-file-upload">
+                        <input type="file" id="cropImage" class="crop-diagnosis-input" accept="image/*" required />
+                        <span class="file-upload-text">Choose File</span>
+                    </label>
+                    <div id="fileName" class="file-name"></div>
                     <button type="submit" class="crop-diagnosis-submit">Submit</button>
+                    <div id="submissionMessage" class="submission-message hidden"></div>
                 </form>
 
                 <div id="resultBox" class="crop-diagnosis-result hidden">
@@ -238,6 +256,7 @@
                 </div>
             </div>
         </section>
+
 
         <!--Our Team-->
         <div class="title" style="margin-top:3rem;" id="Team">

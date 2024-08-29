@@ -100,3 +100,20 @@ nextButton.addEventListener('click', () => {
 // Initialize slider width
 updateSlider();
 window.addEventListener('resize', updateSlider);
+
+document.getElementById('cropImage').addEventListener('change', function(event) {
+  const fileName = event.target.files[0] ? event.target.files[0].name : 'No file chosen';
+  document.getElementById('fileName').textContent = `Selected file: ${fileName}`;
+});
+
+document.getElementById('cropDiagnosisForm').addEventListener('submit', function(event) {
+  event.preventDefault(); // Prevent form from submitting the default way
+
+  // Display the result box
+  document.getElementById('resultBox').classList.remove('hidden');
+
+  // Display the message
+  document.getElementById('submissionMessage').innerText = 'Thank you for submitting your image. Processing it.';
+  document.getElementById('submissionMessage').classList.remove('hidden');
+});
+

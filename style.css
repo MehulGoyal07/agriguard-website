@@ -233,6 +233,7 @@ header {
 .crop-diagnosis {
     margin-bottom: 4rem;
     width: 90%;
+    max-width: 900px;
     height: auto;
     backdrop-filter: blur(15px);
     padding: 4rem;
@@ -240,6 +241,7 @@ header {
     border-radius: 40px;
     border: 2px solid var(--trans-color);
     margin-top: 4rem;
+    position: relative;
 }
 
 .crop-diagnosis-container {
@@ -249,47 +251,126 @@ header {
 
 .crop-diagnosis-heading {
     text-align: center;
-    font-size: 24px;
+    font-size: 28px;
+    color: var(--text-color);
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.crop-diagnosis-subheading {
+    text-align: center;
+    font-size: 22px;
     color: var(--text-color);
     margin-bottom: 20px;
+    font-weight: 600;
 }
 
 .crop-diagnosis-description {
+    font-size: 18px;
+    color: var(--text-color);
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.crop-diagnosis-tips {
     font-size: 16px;
     color: var(--text-color);
     margin-bottom: 20px;
     text-align: center;
 }
 
+.crop-diagnosis-tips ul {
+    list-style-type: disc;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.file-name {
+    font-size: 16px;
+    color: var(--text-color);
+    margin-top: 10px;
+    text-align: center;
+}
+
+.submission-message {
+    font-size: 16px;
+    color: var(--text-color);
+    margin-top: 20px;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.crop-diagnosis-tips li {
+    margin-bottom: 10px;
+}
+
 .crop-diagnosis-form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 1rem;
 }
 
-.crop-diagnosis-input {
-    margin-bottom: 20px;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+.custom-file-upload {
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 2px solid var(--text-color);
+    border-radius: 12px;
+    padding: 10px 20px;
+    background-color: #222c1d;
+    color: var(--text-color);
     font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.custom-file-upload:hover {
+    background-color: #333;
+    color: var(--body-color);
+}
+
+.custom-file-upload input[type="file"] {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    max-width: 400px;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.file-upload-text {
+    display: inline-block;
 }
 
 .crop-diagnosis-submit {
     border: 2px solid var(--text-color);
     color: var(--text-color);
     cursor: pointer;
-    background-color: transparent;
+    background-color: #222c1d;
     text-transform: capitalize;
-    padding: 10px 40px;
+    padding: 12px 30px;
     font-size: 18px;
     border-radius: 12px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .crop-diagnosis-submit:hover {
     background-color: #333;
+    color: var(--body-color);
 }
 
 .crop-diagnosis-result {
@@ -299,12 +380,14 @@ header {
     border-radius: 8px;
     background-color: #fff;
     text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .result-heading {
-    font-size: 20px;
+    font-size: 22px;
     color: var(--text-color);
     margin-bottom: 10px;
+    font-weight: 700;
 }
 
 .result-condition,
@@ -328,19 +411,25 @@ header {
         margin: 2rem auto;
     }
     .crop-diagnosis-heading {
-        font-size: 22px;
+        font-size: 24px;
+    }
+    .crop-diagnosis-subheading {
+        font-size: 20px;
     }
     .crop-diagnosis-description {
+        font-size: 16px;
+    }
+    .crop-diagnosis-tips {
         font-size: 15px;
     }
     .crop-diagnosis-input {
         font-size: 15px;
     }
     .crop-diagnosis-submit {
-        font-size: 15px;
+        font-size: 16px;
     }
     .result-heading {
-        font-size: 18px;
+        font-size: 20px;
     }
     .result-condition,
     .result-suggestions,
@@ -357,7 +446,13 @@ header {
     .crop-diagnosis-heading {
         font-size: 20px;
     }
+    .crop-diagnosis-subheading {
+        font-size: 18px;
+    }
     .crop-diagnosis-description {
+        font-size: 14px;
+    }
+    .crop-diagnosis-tips {
         font-size: 14px;
     }
     .crop-diagnosis-input {
@@ -367,7 +462,7 @@ header {
         font-size: 14px;
     }
     .result-heading {
-        font-size: 16px;
+        font-size: 18px;
     }
     .result-condition,
     .result-suggestions,
