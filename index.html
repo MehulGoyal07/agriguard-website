@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agriguard</title>
+
+    <!-- favicon link  -->
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/svg" />
+
+    <!-- link to google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
+
+    <!-- style sheet  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="planto">
+        <!-- home section  -->
+        <section class="home" id="#Home">
+            <header>
+                <div class="logo">
+                    <img src="./assets/favicon.png" alt="Logo" />
+                    <h4>agriguard</h4>
+                </div>
+
+                <nav>
+                    <div class="menu-toggle" id="mobile-menu">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                    <ul class="nav_menu" id="nav">
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#Features">Features</a></li>
+                        <li><a href="#Diagnosis">Diagnosis</a></li>
+                        <li><a href="#Team">Our Team</a></li>
+                        <li><a href="#Contact">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="home__content flex">
+                <div class="home_part1">
+                    <div class="home__text-part">
+                        <h1>Welcome to AgriGuard</h1>
+                        <p>
+                            AgriGuard leverages advanced AI technology to help farmers diagnose crop diseases quickly and effectively. Upload your crop images to get instant insights, recommendations, and treatment options.
+                        </p>
+
+                        <div class="home_text_inner">
+                            <button id="live-demo-btn" style="cursor: pointer;">Demo Here</button>
+                        </div>
+
+                        <!-- Modal for Video -->
+                        <div id="videoModal" class="modal">
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <video id="demoVideo" controls>
+                    <source src="./assets/template.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="trend">
+                        <div class="title">
+                            <img src="./assets/title-border1.svg" alt="" />
+
+                            <h2>App Overview</h2>
+
+                            <img src="./assets/title-border2.svg" alt="" />
+                        </div>
+
+                        <div class="trend__content trend_bo trend_radi">
+                            <div class="trend_2image trend_dest">
+                                <img src="./assets/img6.png" alt="" />
+                            </div>
+
+                            <div class="trend_text trend_text_desk">
+                                <h3>Seamless Upload and Diagnosis</h3>
+
+                                <p>
+                                    Our intuitive app interface allows you to easily upload crop images and receive immediate disease diagnostics.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="trend__content trend_dir trend_radi">
+                        <div class="trend_2image trend_sec_img trend_dest">
+                            <img src="./assets/img7.png" alt="" />
+                        </div>
+
+                        <div class="trend_text trend_text_desk">
+                            <h3>Detailed Reports and Remedies</h3>
+
+                            <p>
+                                Explore comprehensive reports on crop conditions along with tailored suggestions and remedies to address any detected issues.
+                            </p>
+                        </div>
+                    </div>
+        </section>
+
+        <!-- Features section  -->
+        <div class="review" style="margin-top:4rem; margin-bottom: 4rem;" id="Features">
+            <div class="title">
+                <img src="./assets/title-border1.svg" alt="" />
+
+                <h2>Features</h2>
+
+                <img src="./assets/title-border2.svg" alt="" />
+            </div>
+
+            <div class="sell_products">
+                <div class="review">
+                    <div class="review_content">
+                        <div class="review_profile">
+                            <div class="review_inner">
+                                <h3>Instant Disease Detection</h3>
+                            </div>
+                        </div>
+
+                        <p>
+                            Utilize our AI-driven technology to detect crop diseases in real-time with high precision.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="review">
+
+                    <div class="review_content">
+                        <div class="review_profile">
+
+                            <div class="review_inner">
+                                <h3>Personalized Treatment Recommendations</h3>
+                            </div>
+                        </div>
+
+                        <p>
+                            Get customized suggestions and remedies based on the specific disease detected in your crop images.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="review">
+
+                    <div class="review_content">
+                        <div class="review_profile">
+                            <div class="review_inner">
+                                <h3>User-Friendly Interface</h3>
+                            </div>
+                        </div>
+
+                        <p>
+                            Experience a smooth and intuitive interface designed for ease of use by farmers and agricultural professionals.
+                        </p>
+                    </div>
+                </div>
+                <div class="review">
+
+                    <div class="review_content">
+                        <div class="review_profile">
+                            <div class="review_inner">
+                                <h3>Extensive Disease Database</h3>
+                            </div>
+                        </div>
+
+                        <p>
+                            Access a comprehensive database of crop diseases and effective treatments to manage crop health better.
+                        </p>
+                    </div>
+                </div>
+                <div class="review">
+
+                    <div class="review_content">
+                        <div class="review_profile">
+                            <div class="review_inner">
+                                <h3>Accurate and Reliable</h3>
+                            </div>
+                        </div>
+
+                        <p>
+                            Our AI models are trained on extensive datasets to provide accurate and reliable disease detection.
+                        </p>
+                    </div>
+                </div>
+                <div class="review">
+
+                    <div class="review_content">
+                        <div class="review_profile">
+                            <div class="review_inner">
+                                <h3>Real-Time Feedback</h3>
+                            </div>
+                        </div>
+
+                        <p>
+                            Receive instant feedback and actionable insights to address crop issues promptly.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--Crop Diagnosis Section-->
+        <div class="title" style="margin-top:3rem;" id="Diagnosis">
+            <img src="./assets/title-border1.svg" alt="" />
+
+            <h2>Disease Diagnosis</h2>
+
+            <img src="./assets/title-border2.svg" alt="" />
+        </div>
+        <section class="crop-diagnosis">
+            <div class="crop-diagnosis-container">
+                <h2 class="crop-diagnosis-heading">Get your crop diagnosed</h2>
+                <p class="crop-diagnosis-description">
+                    Upload an image of your crop to diagnose its condition and receive tailored suggestions and remedies.
+                </p>
+
+                <form id="cropDiagnosisForm" class="crop-diagnosis-form">
+                    <input type="file" id="cropImage" class="crop-diagnosis-input" accept="image/*" required />
+                    <button type="submit" class="crop-diagnosis-submit">Submit</button>
+                </form>
+
+                <div id="resultBox" class="crop-diagnosis-result hidden">
+                    <h5 class="result-heading">Diagnosis Results</h5>
+                    <p class="result-condition"><strong>Condition:</strong> <span id="condition">N/A</span></p>
+                    <p class="result-suggestions"><strong>Suggestions:</strong> <span id="suggestions">N/A</span></p>
+                    <p class="result-remedies"><strong>Remedies:</strong> <span id="remedies">N/A</span></p>
+                </div>
+            </div>
+        </section>
+
+        <!--Our Team-->
+        <div class="title" style="margin-top:3rem;" id="Team">
+            <img src="./assets/title-border1.svg" alt="" />
+            <h2>Our Team</h2>
+            <img src="./assets/title-border2.svg" alt="" />
+        </div>
+        <section class="team-slider">
+            <div class="slider-container">
+                <div class="slider">
+                    <!-- Slide 1 -->
+                    <div class="slide">
+                        <div class="team-member">
+                            <img src="./assets/img-1.png" alt="Team Member 1" class="team-member-image">
+                            <div class="team-member-info">
+                                <h3 class="team-member-name">John Doe</h3>
+                                <p class="team-member-role">Role: Developer</p>
+                                <p class="team-member-description">John is a passionate developer with expertise in frontend technologies and a knack for solving complex problems.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 2 -->
+                    <div class="slide">
+                        <div class="team-member">
+                            <img src="./assets/img2.png" alt="Team Member 2" class="team-member-image">
+                            <div class="team-member-info">
+                                <h3 class="team-member-name">Jane Smith</h3>
+                                <p class="team-member-role">Role: Designer</p>
+                                <p class="team-member-description">Jane brings creativity and attention to detail to the team, crafting visually stunning designs and user interfaces.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 3 -->
+                    <div class="slide">
+                        <div class="team-member">
+                            <img src="./assets/img3.png" alt="Team Member 3" class="team-member-image">
+                            <div class="team-member-info">
+                                <h3 class="team-member-name">Alex Johnson</h3>
+                                <p class="team-member-role">Role: Project Manager</p>
+                                <p class="team-member-description">Alex ensures that all projects run smoothly, coordinating tasks and managing deadlines to deliver exceptional results.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="team-member">
+                            <img src="./assets/img3.png" alt="Team Member 3" class="team-member-image">
+                            <div class="team-member-info">
+                                <h3 class="team-member-name">Alex Johnson</h3>
+                                <p class="team-member-role">Role: Project Manager</p>
+                                <p class="team-member-description">Alex ensures that all projects run smoothly, coordinating tasks and managing deadlines to deliver exceptional results.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="team-member">
+                            <img src="./assets/img3.png" alt="Team Member 3" class="team-member-image">
+                            <div class="team-member-info">
+                                <h3 class="team-member-name">Alex Johnson</h3>
+                                <p class="team-member-role">Role: Project Manager</p>
+                                <p class="team-member-description">Alex ensures that all projects run smoothly, coordinating tasks and managing deadlines to deliver exceptional results.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="team-member">
+                            <img src="./assets/img3.png" alt="Team Member 3" class="team-member-image">
+                            <div class="team-member-info">
+                                <h3 class="team-member-name">Alex Johnson</h3>
+                                <p class="team-member-role">Role: Project Manager</p>
+                                <p class="team-member-description">Alex ensures that all projects run smoothly, coordinating tasks and managing deadlines to deliver exceptional results.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Repeat slides as needed -->
+                </div>
+                <!-- Slider Controls -->
+                <button class="prev">&#10094;</button>
+                <button class="next">&#10095;</button>
+            </div>
+        </section>
+
+
+        <!--Contact Us Form-->
+        <div class="title" style="margin-top:3rem;" id="Contact">
+            <img src="./assets/title-border1.svg" alt="" />
+
+            <h2>Contact Us</h2>
+
+            <img src="./assets/title-border2.svg" alt="" />
+        </div>
+        <section class="contact-us">
+            <div class="contact-container">
+                <h2 class="contact-heading">Feel Free To Reach Us</h2>
+                <p class="contact-description">
+                    Have a question or need assistance? Fill out the form below, and we'll get back to you as soon as possible.
+                </p>
+
+                <form id="contactForm" class="contact-form" onsubmit="submitForm(event)">
+                    <input type="text" id="name" class="contact-input" placeholder="Your Name" required />
+                    <input type="tel" id="contact" class="contact-input" placeholder="Your Contact Number" required />
+                    <input type="text" id="address" class="contact-input" placeholder="Your Address" required />
+                    <textarea id="query" class="contact-textarea" placeholder="Your Query" required></textarea>
+                    <button type="submit" class="contact-submit">Submit</button>
+                </form>
+            </div>
+        </section>
+
+
+        <footer>
+            <section class="footer">
+                <div class="footer-top">
+                    <div class="footer-title">
+                        <div class="footer-logo">
+                            <img src="/assets/favicon.png" alt="Agriguard Logo" />
+                            <h3>Agriguard</h3>
+                        </div>
+
+                        <p>
+                            Discover the latest in crop disease detection with Agriguard. We offer accurate diagnostics and actionable insights to help you maintain healthy crops.
+                        </p>
+                    </div>
+
+                    <ul class="quick-links">
+                        <li>
+                            <h2>Quick Links</h2>
+                        </li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Types of Plants</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+
+                    <form action="" class="subscription-form">
+                        <h2>Stay Updated</h2>
+                        <div class="form-group">
+                            <input type="email" name="email" id="email" placeholder="Enter your email address" />
+                            <button type="submit">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="footer-bottom">
+                    <div class="social">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://wa.me/9548551920" target="_blank" class="social-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+
+                    <p>© 2024 Agriguard. All rights reserved.</p>
+                </div>
+            </section>
+        </footer>
+
+        <script src="script.js"></script>
+</body>
+
+</html>
