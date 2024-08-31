@@ -72,34 +72,56 @@ document
     }
   });
 
-  const prevButton = document.querySelector('.prev');
-const nextButton = document.querySelector('.next');
-const slider = document.querySelector('.slider');
-let currentIndex = 0;
+  // JavaScript for slider controls
+  const prev = document.querySelector('.prev');
+  const next = document.querySelector('.next');
+  const slider = document.querySelector('.slider');
+  const slides = document.querySelectorAll('.slide');
+  
+  let currentSlide = 0;
+  let slidesToShow = 3; // Default for larger screens
+  let totalSlides; // Total number of groups
+  
+  // Function to update the number of slides to show based on screen size
+  function setSlidesToShow() {
+      if (window.innerWidth <= 768) {
+          slidesToShow = 1;
+      } else {
+          slidesToShow = 3;
+      }
+      totalSlides = Math.ceil(slides.length / slidesToShow); // Recalculate totalSlides
+      updateSliderPosition(); // Update the position on screen size change
+  }
+  
+  // Function to update the slider position based on the current slide and slidesToShow
+  function updateSliderPosition() {
+      const slideWidth = slider.clientWidth / slidesToShow;
+      slider.style.transform = `translateX(-${currentSlide * slideWidth * slidesToShow}px)`;
+  }
+  
+  // Next button event listener
+  next.addEventListener('click', () => {
+      if (currentSlide < totalSlides - 1) {
+          currentSlide++;
+          updateSliderPosition();
+      }
+  });
+  
+  // Previous button event listener
+  prev.addEventListener('click', () => {
+      if (currentSlide > 0) {
+          currentSlide--;
+          updateSliderPosition();
+      }
+  });
+  
+  // Set initial number of slides to show
+  setSlidesToShow();
+  
+  // Update the number of slides to show on window resize
+  window.addEventListener('resize', setSlidesToShow);
+  
 
-function updateSlider() {
-    const slideWidth = slider.clientWidth;
-    slider.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
-}
-
-prevButton.addEventListener('click', () => {
-    if (currentIndex > 0) {
-        currentIndex--;
-        updateSlider();
-    }
-});
-
-nextButton.addEventListener('click', () => {
-    const totalSlides = document.querySelectorAll('.slide').length;
-    if (currentIndex < totalSlides - 1) {
-        currentIndex++;
-        updateSlider();
-    }
-});
-
-// Initialize slider width
-updateSlider();
-window.addEventListener('resize', updateSlider);
 
 document.getElementById('cropImage').addEventListener('change', function(event) {
   const fileName = event.target.files[0] ? event.target.files[0].name : 'No file chosen';

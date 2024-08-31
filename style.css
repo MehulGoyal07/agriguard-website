@@ -477,6 +477,9 @@ header {
 
 /* Our Team Complete Code Starts*/
 
+
+/* Updated Team Slider CSS */
+
 .team-slider {
     width: 90%;
     background: var(--trans-color);
@@ -499,8 +502,10 @@ header {
 }
 
 .slide {
-    min-width: 100%;
+    flex: 1 0 33.333%;
+    /* Show three members at a time */
     box-sizing: border-box;
+    padding: 10px;
 }
 
 .team-member {
@@ -518,9 +523,11 @@ header {
 }
 
 .team-member-image {
-    background-color: var(--trans-color);
-    width: 300px;
-    height: 320px;
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    max-height: 320px;
+    object-fit: scale-down;
 }
 
 .team-member-info {
@@ -573,6 +580,10 @@ header {
 /* Responsive Design */
 
 @media (max-width: 768px) {
+    .slide {
+        flex: 1 0 100%;
+        /* Show one member at a time on mobile */
+    }
     .team-slider {
         padding: 20px 10px;
     }
