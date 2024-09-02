@@ -49,13 +49,6 @@ To set up the website locally, follow these steps:
 - **`script.js`**: JavaScript code to handle interactive elements.
 
 ## 📸Screenshots
-![file_2024-09-01_05 32 43](https://github.com/user-attachments/assets/1aeeb8cb-7f01-4a34-afe1-af00a932a917)
-![file_2024-09-01_05 33 55](https://github.com/user-attachments/assets/69eed6b9-f310-41a3-9b00-7179620d9100)
-![file_2024-09-01_05 35 09](https://github.com/user-attachments/assets/113ab825-ce89-4bdd-977e-b4b6e66118e4)
-
-
-
-
 
 ## 🌍About the Project
 
