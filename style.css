@@ -119,6 +119,21 @@ header {
     position: relative;
 }
 
+.home_text_inner {
+    display: flex;
+    gap: 1rem;
+}
+
+#download-app-btn {
+    align-items: center;
+    border-top: 1px solid var(--trans-color);
+    padding-top: 1rem;
+}
+
+#download-app-btn:hover {
+    background-color: #222c1d;
+}
+
 .logo {
     display: flex;
     align-items: center;
@@ -378,7 +393,7 @@ header {
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
-    background-color: #fff;
+    background-color: #1b2316;
     text-align: left;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -1682,3 +1697,6 @@ form h2 {
         right: 35%;
     }
 }
+
+
+/* Chatbot */

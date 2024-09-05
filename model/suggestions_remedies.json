@@ -1,0 +1,243 @@
+{
+    "Apple Black Rot": {
+      "suggestions": "Prune out dead or diseased branches, remove mummified fruits, and practice good sanitation.",
+      "remedies": "Use fungicides such as thiophanate-methyl during the growing season."
+    },
+    "Apple Healthy": {
+      "suggestions": "Continue regular maintenance and monitor for pests or diseases.",
+      "remedies": "No remedies needed; keep up with watering, pruning, and fertilization."
+    },
+    "Apple Rust": {
+      "suggestions": "Remove nearby junipers, prune out galls, and plant resistant apple varieties.",
+      "remedies": "Apply fungicides like myclobutanil during the infection period."
+    },
+    "Apple Scab": {
+      "suggestions": "Plant resistant varieties, ensure good air circulation, and remove and destroy fallen leaves.",
+      "remedies": "Apply fungicides like captan or mancozeb at the first sign of disease."
+    },
+    "Cassava Bacterial Blight": {
+      "suggestions": "Use disease-free cuttings, and ensure good field drainage.",
+      "remedies": "Apply bactericides like copper-based compounds."
+    },
+    "Brown Streak Disease": {
+      "suggestions": "Plant resistant varieties, remove infected plants, and practice good crop sanitation.",
+      "remedies": "There are no chemical treatments; remove and destroy infected plants."
+    },
+    "Green Mottle": {
+      "suggestions": "Use resistant varieties and ensure proper spacing to improve air circulation.",
+      "remedies": "No known remedies; focus on preventive measures."
+    },
+    "Cassava Healthy": {
+      "suggestions": "Continue regular monitoring and follow good agronomic practices.",
+      "remedies": "No remedies needed; maintain current care."
+    },
+    "Cassava Mosaic Disease": {
+      "suggestions": "Use virus-free cuttings, remove infected plants, and control whitefly populations.",
+      "remedies": "No chemical control available; remove infected plants."
+    },
+    "Cherry Healthy": {
+      "suggestions": "Maintain good cultural practices and monitor for any signs of disease.",
+      "remedies": "No remedies needed; continue with regular care."
+    },
+    "Cherry Powdery Mildew": {
+      "suggestions": "Plant in full sun, ensure good air circulation, and avoid overhead watering.",
+      "remedies": "Apply sulfur-based fungicides at the first sign of powdery mildew."
+    },
+    "Chilli Healthy": {
+      "suggestions": "Maintain regular monitoring and good cultural practices.",
+      "remedies": "No remedies needed; continue with current care."
+    },
+    "Chilli Leaf Curl": {
+      "suggestions": "Use resistant varieties and control whitefly populations.",
+      "remedies": "Apply insecticides to control whiteflies and remove infected plants."
+    },
+    "Chilli Leaf Spot": {
+      "suggestions": "Rotate crops, avoid overhead watering, and use disease-free seeds.",
+      "remedies": "Apply fungicides like copper-based products to control leaf spot."
+    },
+    "Chili Whitefly": {
+      "suggestions": "Use yellow sticky traps, ensure good air circulation, and avoid over-fertilizing with nitrogen.",
+      "remedies": "Apply insecticides to control whiteflies."
+    },
+    "Chili Yellowish": {
+      "suggestions": "Check for nutrient deficiencies, and monitor for pest infestation or diseases.",
+      "remedies": "Apply appropriate fertilizers or insecticides depending on the cause."
+    },
+    "Coffee Cercosport Leaf Spot": {
+      "suggestions": "Plant resistant varieties, prune to increase air circulation, and avoid overhead watering.",
+      "remedies": "Apply copper-based fungicides to control the spread."
+    },
+    "Coffee Healthy": {
+      "suggestions": "Maintain regular monitoring for pests and diseases, and continue regular care.",
+      "remedies": "No remedies needed; continue with current care."
+    },
+    "Coffee Red Spider Mite": {
+      "suggestions": "Increase humidity around the plants and regularly inspect for mites.",
+      "remedies": "Apply miticides or insecticidal soap to control mite populations."
+    },
+    "Coffee Rust": {
+      "suggestions": "Use resistant varieties, prune to improve air circulation, and remove fallen leaves.",
+      "remedies": "Apply copper-based fungicides at the first sign of rust."
+    },
+    "Corn Common Rust": {
+      "suggestions": "Plant rust-resistant varieties and monitor fields regularly.",
+      "remedies": "Apply fungicides like azoxystrobin if rust pustules appear."
+    },
+    "Corn Gray Leaf Spot": {
+      "suggestions": "Rotate crops, avoid planting in infected fields, and use resistant varieties.",
+      "remedies": "Apply strobilurin or triazole fungicides if disease pressure is high."
+    },
+    "Corn Healthy": {
+      "suggestions": "Ensure proper nutrition and monitor for early signs of any diseases.",
+      "remedies": "No remedies needed; maintain current care practices."
+    },
+    "Corn Northern Leaf Blight": {
+      "suggestions": "Use resistant hybrids, rotate crops, and remove crop debris after harvest.",
+      "remedies": "Apply fungicides like propiconazole if the disease is detected early."
+    },
+    "Cucumber Diseased": {
+      "suggestions": "Practice crop rotation and improve air circulation.",
+      "remedies": "Apply fungicides or insecticides depending on the disease."
+    },
+    "Cucumber Healthy": {
+      "suggestions": "Continue regular monitoring and proper cultural practices.",
+      "remedies": "No remedies needed; maintain current care."
+    },
+    "Guava Diseased": {
+      "suggestions": "Prune infected parts, remove fallen leaves, and improve air circulation.",
+      "remedies": "Apply fungicides or bactericides based on the disease."
+    },
+    "Guava Healthy": {
+      "suggestions": "Monitor regularly for pests and diseases, and maintain good orchard care.",
+      "remedies": "No remedies needed; continue current care."
+    },
+    "Grape Black Measles": {
+      "suggestions": "Prune vines to improve air circulation, remove infected leaves, and ensure good vineyard sanitation.",
+      "remedies": "Apply fungicides like myclobutanil or copper-based sprays."
+    },
+    "Grape Black Rot": {
+      "suggestions": "Remove infected leaves and fruit, and prune vines to improve air circulation.",
+      "remedies": "Apply fungicides like captan or myclobutanil starting at bud break."
+    },
+    "Grape Healthy": {
+      "suggestions": "Continue monitoring for pests and diseases, and maintain regular pruning and training.",
+      "remedies": "No remedies needed; continue with standard vineyard management."
+    },
+    "Grape Leaf Blight": {
+      "suggestions": "Improve air circulation, avoid overhead watering, and remove affected leaves.",
+      "remedies": "Use fungicides such as mancozeb or copper-based products as a preventive measure."
+    },
+    "Jamun Diseased": {
+      "suggestions": "Remove diseased leaves and fruits, improve air circulation, and avoid waterlogging.",
+      "remedies": "Apply appropriate fungicides or bactericides based on the disease."
+    },
+    "Jamun Healthy": {
+      "suggestions": "Continue with regular care and monitor for any signs of disease.",
+      "remedies": "No remedies needed; maintain current care."
+    },
+    "Lemon Diseased": {
+      "suggestions": "Prune infected parts, improve air circulation, and avoid overhead watering.",
+      "remedies": "Apply appropriate fungicides or bactericides."
+    },
+    "Lemon Healthy": {
+      "suggestions": "Keep monitoring for pests and diseases, and continue regular care.",
+      "remedies": "No remedies needed; continue with current care."
+    },
+    "Mango Diseased": {
+      "suggestions": "Prune infected branches, ensure good air circulation, and avoid overhead watering.",
+      "remedies": "Apply fungicides based on the specific disease identified."
+    },
+    "Mango Healthy": {
+      "suggestions": "Maintain regular monitoring and ensure proper fertilization and irrigation.",
+      "remedies": "No remedies needed; continue with current care."
+    },
+    "Peach Bacterial Spot": {
+      "suggestions": "Plant resistant varieties, avoid overhead watering, and use protective sprays during wet weather.",
+      "remedies": "Apply copper-based bactericides during the growing season."
+    },
+    "Peach Healthy": {
+      "suggestions": "Maintain regular orchard care practices and monitor for signs of disease or pest infestation.",
+      "remedies": "No remedies needed; keep up with current care routine."
+    },
+    "Pepper Bell Bacterial Spot": {
+      "suggestions": "Use disease-free seeds, practice crop rotation, and avoid working in fields when plants are wet.",
+      "remedies": "Apply copper-based bactericides regularly during the growing season."
+    },
+    "Pepper Bell Healthy": {
+      "suggestions": "Maintain regular monitoring and proper cultural practices.",
+      "remedies": "No remedies needed; continue with current care."
+    },
+    "Pomegranate Diseased": {
+      "suggestions": "Prune infected parts, improve air circulation, and avoid overhead watering.",
+      "remedies": "Apply appropriate fungicides based on the disease."
+    },
+    "Pomegranate Healthy": {
+      "suggestions": "Monitor regularly for pests and diseases, and maintain good cultural practices.",
+      "remedies": "No remedies needed; continue with current care."
+    },
+    "Potato Early Blight": {
+      "suggestions": "Rotate crops, plant resistant varieties, and avoid overhead watering.",
+      "remedies": "Apply fungicides like mancozeb or chlorothalonil at the first sign of disease."
+    },
+    "Potato Late Blight": {
+      "suggestions": "Plant disease-resistant varieties, use certified seed potatoes, and avoid over-watering.",
+      "remedies": "Apply fungicides like chlorothalonil or mancozeb if late blight appears."
+    },
+    "Potato Healthy": {
+      "suggestions": "Continue regular monitoring for pests and diseases.",
+      "remedies": "No remedies needed; maintain current care practices."
+    },
+    "Strawberry Leaf Scorch": {
+      "suggestions": "Ensure good air circulation, avoid overcrowding, and remove infected leaves.",
+      "remedies": "Apply fungicides such as copper-based products to control the disease."
+    },
+    "Strawberry Healthy": {
+      "suggestions": "Keep up regular monitoring for pests and diseases and maintain good care.",
+      "remedies": "No remedies needed; continue current care routine."
+    },
+    "Tomato Bacterial Spot": {
+      "suggestions": "Avoid overhead watering, remove infected plants, and practice crop rotation.",
+      "remedies": "Apply copper-based bactericides to manage the disease."
+    },
+    "Tomato Healthy": {
+      "suggestions": "Monitor regularly for pests and diseases and maintain good cultural practices.",
+      "remedies": "No remedies needed; continue with current care."
+    },
+    "Tomato Late Blight": {
+      "suggestions": "Plant resistant varieties, remove affected plants, and avoid overhead watering.",
+      "remedies": "Use fungicides like chlorothalonil or mancozeb to control late blight."
+    },
+    "Tomato Leaf Mold": {
+      "suggestions": "Improve air circulation, avoid overcrowding, and ensure plants receive adequate sunlight.",
+      "remedies": "Apply fungicides such as copper-based sprays at the first sign of leaf mold."
+    },
+    "Tomato Mosaic Virus": {
+      "suggestions": "Remove infected plants, sanitize tools, and avoid handling plants when wet.",
+      "remedies": "No chemical control available; focus on preventive measures."
+    },
+    "Tomato Septoria Leaf Spot": {
+      "suggestions": "Prune lower leaves, improve air circulation, and avoid overhead watering.",
+      "remedies": "Use fungicides like chlorothalonil or mancozeb to manage the disease."
+    },
+    "Tomato Spider Mites": {
+      "suggestions": "Increase humidity, regularly inspect plants, and introduce beneficial insects like predatory mites.",
+      "remedies": "Apply miticides or insecticidal soap to control spider mites."
+    },
+    "Tomato Target Spot": {
+      "suggestions": "Plant resistant varieties, ensure good air circulation, and avoid overhead watering.",
+      "remedies": "Use fungicides like chlorothalonil or copper-based sprays to control target spot."
+    },
+    "Tomato Yellow Leaf Curl Virus": {
+      "suggestions": "Control whitefly populations, remove infected plants, and use virus-resistant varieties.",
+      "remedies": "No chemical treatment available; focus on whitefly control and virus-resistant varieties."
+    },
+    "Wheat Diseased": {
+      "suggestions": "Practice crop rotation, use resistant varieties, and avoid overhead watering.",
+      "remedies": "Apply appropriate fungicides based on the disease."
+    },
+    "Wheat Healthy": {
+      "suggestions": "Maintain regular monitoring for pests and diseases, and ensure proper cultural practices.",
+      "remedies": "No remedies needed; continue current care practices."
+    }
+  }
+  

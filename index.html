@@ -17,9 +17,14 @@
     <!-- style sheet  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="style.css" />
+
+    <!-- for model  -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
 </head>
 
 <body>
+    <!--Chatbot-->
+
     <div class="planto">
         <!-- home section  -->
         <section class="home" id="#">
@@ -55,6 +60,7 @@
 
                         <div class="home_text_inner">
                             <button id="live-demo-btn" style="cursor: pointer;">Demo Here</button>
+                            <button id="download-app-btn" style="cursor: pointer;">Download App</button>
                         </div>
 
                         <!-- Modal for Video -->
@@ -240,9 +246,9 @@
 
                 <form id="cropDiagnosisForm" class="crop-diagnosis-form">
                     <label for="cropImage" class="custom-file-upload">
-                        <input type="file" id="cropImage" class="crop-diagnosis-input" accept="image/*" required />
-                        <span class="file-upload-text">Choose File</span>
-                    </label>
+                                <input type="file" id="cropImage" class="crop-diagnosis-input" accept="image/*" required />
+                                <span class="file-upload-text">Choose File</span>
+                            </label>
                     <div id="fileName" class="file-name"></div>
                     <button type="submit" class="crop-diagnosis-submit">Submit</button>
                     <div id="submissionMessage" class="submission-message hidden"></div>
@@ -305,7 +311,7 @@
                         <div class="team-member">
                             <img src="./assets/img-4.png" alt="Team Member 4" class="team-member-image">
                             <div class="team-member-info">
-                                <h3 class="team-member-name">Suhani Verma</h3>
+                                <h3 class="team-member-name">Khushboo Kumari</h3>
                                 <p class="team-member-role">Role: AI/ML Specialist</p>
                                 <p class="team-member-description">Created clear, actionable presentations of model results, helping users make informed decisions.</p>
                             </div>
@@ -418,6 +424,16 @@
         </footer>
 
         <script src="script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+        <script src="model.js"></script>
 </body>
+<script>
+    let model;
+    async function loadModel() {
+        model = await tf.loadLayersModel('./model/model.json');
+        console.log('Model Loaded');
+    }
+    loadModel();
+</script>
 
 </html>
